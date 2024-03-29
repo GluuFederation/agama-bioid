@@ -1,6 +1,6 @@
 # Agama BioID 
 
-This Agama Project allows biometric authentication by leveraging BioID. For more information you can also see 
+This Agama Project allows biometric authentication by using the facial recognitioni modality leveraging the BioID API. For more information you can also see 
 * [BioID](https://www.bioid.com/)
 
 ## Requirements
@@ -13,7 +13,7 @@ This Agama Project allows biometric authentication by leveraging BioID. For more
 | IDP                             | Description                                |
 | :------------------------------ |:-------------------------------------------| 
 | Jans Auth Server                |[Deployment instructions](./jans-deploy.md) | 
-| Gluu Flex                       |[Deployment instructions](.)                | 
+| Gluu Flex                       |[Deployment instructions](./jans-deploy.md) | 
 
 ## Flows
 
@@ -48,11 +48,12 @@ Sample JSON:
   }
 }
 ```
+## Sequence Diagrams
 
-## Demo
-_Optional_
+`org.gluu.agama.bioid`
 
-Check out this video of the `org.gluu.agama.<name>` flow. 
+
+[Source](https://sequencediagram.org/index.html#initialData=C4S2BsFMAICEQPYEkAiAoARg4wEFsAHAQwCdQBjEYgO2AGdo0iBXXa5vDSExo83HgAVudBNTTEyISjWBwSCAO51uE0hSpFa0APKC1UmVrnxk6YSVHUAtAD5YC5dwBcdYOugAzcErQOlKiR2es4A9CzAABYIJCAAXpAA-HwkAPoAbkTgzJB0ALxEAOZEeEQAOtQAZEUlRKneSnkxhQB0hdnMLTWlLRiIIAAmaHp2-k4kzgQkuZDazIHUJTDEhZBoFlajjoHOs8Dc0PPci3hrY4HBgs7DgpfO0D4IANaHBNB85AjMtDejiKj3ciRSDkF6zBTgcCnH6mVB3aDghCQ6FyaZ0AhiFRMcByajYBHUCFQIYjezbFzQKYzbSI5F7SlFNYbMRbAIU2ngLx8M7koK2EK-ez-FD3DloWYk25ktkTSlo+npbggTzSIigMQM1brEQs6Xje6K2KeACeXPIPJld0FsJF0CBIJehuVqvV4iycidKvIasQ1C5IGJ1t59ypKm0xDodEUMQGmqZOpsep2BP2PAjUZjfl5VtJIWgmXAgzVyyIkejJCGEqDMvudGY5HNkaAA)
 
 # Contributors
 
