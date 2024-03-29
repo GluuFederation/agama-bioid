@@ -6,22 +6,27 @@ idp = Call org.gluu.agama.bioid.IdentityProcessor#new
 username = RRF "username.ftlh" 
 userData = Call idp accountFromUsername username.username
 When userData.empty is true
-     it_facdz = {success:false, error: "User not found"}
-     Finish it_facdz
+     it_oqfyp = {success:false, error: "User not found"}
+     Finish it_oqfyp
 enrolled = Call bioid isEnrolled username.username
 When enrolled is false
      token = Call bioid getBWSToken username.username "enroll"
      enroll_map = {token:token, return_url:conf.host, state: "abcdef"}
      enroll_result = RRF "bioid.ftlh" enroll_map true
      When enroll_result.error is not null
-          it_lxucy = {success:false, error: "Enrollment failed; please try again later."}
-          Finish it_lxucy
+          it_rcvpv = {success:false, error: "Enrollment failed; please try again later."}
+          Finish it_rcvpv
      uid = username.username
      authenticate_result = Trigger org.gluu.agama.bioid.authenticate uid idp
      When authenticate_result is false
-          it_bzntg = {success:false, error: "Authentication failed"}
-          Finish it_bzntg
-     it_gqbzx = {success:true, data: { userId: username.username}}
-     Finish it_gqbzx
-it_owmee = undefined
-Finish it_owmee
+          it_dzspr = {success:false, error: "Authentication failed"}
+          Finish it_dzspr
+     it_turxm = {success:true, data: { userId: username.username}}
+     Finish it_turxm
+verify_token = Call bioid getBWSToken username.username "verify"
+verify_map = {token:verify_token, return_url:conf.host, state: "abcdef"}
+verify_result = RRF "bioid.ftlh" verify_map true
+When verify_result.error is not null
+uid = username.username
+authentication_result = Trigger org.gluu.agama.bioid.authenticate uid idp
+Finish authentication_result
