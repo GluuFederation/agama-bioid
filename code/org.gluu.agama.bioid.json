@@ -33,7 +33,8 @@
 					"returnVariable": "authentication_result",
 					"finishMode": "withVariable",
 					"nodeIcon": "material-symbols:line-end-square-rounded"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -80,7 +81,8 @@
 					],
 					"asssignedVariableName": "authentication_result",
 					"exceptionVariableField": ""
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -101,7 +103,7 @@
 			"data": {
 				"id": "Agama-assignment-Node-632af28b-3392-4f75-9d2b-0d1a372f6cc7",
 				"type": "Agama-assignment-Node",
-				"parentId": "Agama-when-Node-e3da6c7f-ea54-4202-9726-05f778dd7626",
+				"parentId": "Agama-rrf-Node-8eef2823-23dd-4848-8b22-dd921d208d53",
 				"whenCondition": "WhenFalse",
 				"inRepeatBlock": false,
 				"inIterateBlock": false,
@@ -111,7 +113,7 @@
 				},
 				"agamaData": {
 					"id": "Agama-assignment-Node-632af28b-3392-4f75-9d2b-0d1a372f6cc7",
-					"parentId": "Agama-when-Node-e3da6c7f-ea54-4202-9726-05f778dd7626",
+					"parentId": "Agama-rrf-Node-8eef2823-23dd-4848-8b22-dd921d208d53",
 					"type": "Agama-assignment-Node",
 					"displayName": "",
 					"hasComment": true,
@@ -127,62 +129,16 @@
 						}
 					],
 					"nodeIcon": "material-symbols:equal"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 2486.7314731310394,
 				"y": 23.68414547497099
-			}
-		},
-		{
-			"width": 110,
-			"height": 60,
-			"id": "Agama-when-Node-e3da6c7f-ea54-4202-9726-05f778dd7626",
-			"position": {
-				"x": 2278.6458726391643,
-				"y": -116.3702663300312
 			},
-			"parentId": "Agama-rrf-Node-8eef2823-23dd-4848-8b22-dd921d208d53",
-			"type": "when",
-			"data": {
-				"id": "Agama-when-Node-e3da6c7f-ea54-4202-9726-05f778dd7626",
-				"type": "Agama-when-Node",
-				"parentId": "Agama-rrf-Node-8eef2823-23dd-4848-8b22-dd921d208d53",
-				"whenCondition": "WhenFalse",
-				"inRepeatBlock": false,
-				"inIterateBlock": false,
-				"position": {
-					"x": 2278.6458726391643,
-					"y": -116.3702663300312
-				},
-				"agamaData": {
-					"id": "Agama-when-Node-e3da6c7f-ea54-4202-9726-05f778dd7626",
-					"parentId": "Agama-rrf-Node-8eef2823-23dd-4848-8b22-dd921d208d53",
-					"type": "Agama-when-Node",
-					"conditions": [
-						{
-							"variable": "verify_result.error",
-							"operator": "is not",
-							"dataValue": "null",
-							"combinator": "none"
-						}
-					],
-					"hasComment": true,
-					"inRepeatBlock": false
-				},
-				"handles": [
-					"Agama-when-Node-e3da6c7f-ea54-4202-9726-05f778dd7626.FAILURE",
-					"Agama-when-Node-e3da6c7f-ea54-4202-9726-05f778dd7626.SUCCESS"
-				]
-			},
-			"selected": true,
-			"dragging": false,
-			"positionAbsolute": {
-				"x": 2278.6458726391643,
-				"y": -116.3702663300312
-			}
+			"parentId": "Agama-rrf-Node-8eef2823-23dd-4848-8b22-dd921d208d53"
 		},
 		{
 			"width": 170,
@@ -219,7 +175,8 @@
 					"templatePath": "bioid.ftlh",
 					"asssignedVariableName": "verify_result",
 					"arguments": "verify_map true"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -270,7 +227,8 @@
 					"hasFailure": "",
 					"hasNoRepeat": false,
 					"hasRepeat": false
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -320,7 +278,8 @@
 					],
 					"nodeIcon": "material-symbols:code",
 					"asssignedVariableName": "verify_token"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -2522,11 +2481,28 @@
 				"color": "#ffffff",
 				"fillOpacity": 0.7
 			}
+		},
+		{
+			"id": "Agama-rrf-Node-8eef2823-23dd-4848-8b22-dd921d208d53-Agama-assignment-Node-632af28b-3392-4f75-9d2b-0d1a372f6cc7-02ea3616-f913-4f66-a1f7-b9990ebf5378",
+			"type": "default",
+			"source": "Agama-rrf-Node-8eef2823-23dd-4848-8b22-dd921d208d53",
+			"target": "Agama-assignment-Node-632af28b-3392-4f75-9d2b-0d1a372f6cc7",
+			"label": "",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"labelBgStyle": {
+				"fill": "#FFCC00",
+				"color": "#fff",
+				"fillOpacity": 0.7
+			}
 		}
 	],
 	"viewport": {
-		"x": -1463.289890486908,
-		"y": 339.33641520522775,
+		"x": -1801.289890486908,
+		"y": 257.33641520522775,
 		"zoom": 0.8657365655196583
 	}
 }
