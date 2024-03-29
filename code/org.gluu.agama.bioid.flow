@@ -18,14 +18,13 @@ When enrolled is false
           Finish it_whqfo
      uid = username.username
      authenticate_result = Trigger org.gluu.agama.bioid.authenticate uid idp
-     When authenticate_result is false
-          it_fxplc = {success:false, error: "Authentication failed"}
-          Finish it_fxplc
-     it_vznvu = {success:true, data: { userId: username.username}}
-     Finish it_vznvu
+     Finish authenticate_result 
 verify_token = Call bioid getBWSToken username.username "verify"
 verify_map = {token:verify_token, return_url:conf.host, state: "abcdef"}
 verify_result = RRF "bioid.ftlh" verify_map true
-uid = username.username
-authentication_result = Trigger org.gluu.agama.bioid.authenticate uid idp
-Finish authentication_result
+When verify_result.error is not null
+    uid = username.username
+    authentication_result = Trigger org.gluu.agama.bioid.authenticate uid idp
+    Finish authentication_result
+success_map = {success:true, userId: username.username}
+Finish success_map
