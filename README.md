@@ -1,5 +1,11 @@
 # Agama BioID 
 
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![Apache License][license-shield]][license-url]
+
 This Agama Project allows biometric authentication by using the facial recognitioni modality leveraging the BioID API. For more information you can also see 
 * [BioID](https://www.bioid.com/)
 
@@ -52,8 +58,11 @@ Sample JSON:
 
 `org.gluu.agama.bioid`
 
+![image](https://github.com/GluuFederation/agama-bioid/assets/6601566/1a80619a-8098-463e-b31c-6f063e01ba87)
 
-[Source](https://sequencediagram.org/index.html#initialData=C4S2BsFMAICEQPYEkAiAoARg4wEFsAHAQwCdQBjEYgO2AGdo0iBXXa5vDSExo83HgAVudBNTTEyISjWBwSCAO51uE0hSpFa0APKC1UmVrnxk6YSVHUAtAD5YC5dwBcdYOugAzcErQOlKiR2es4A9CzAABYIJCAAXpAA-HwkAPoAbkTgzJB0ALxEAOZEeEQAOtQAZEUlRKneSnkxhQB0hdnMLTWlLRiIIAAmaHp2-k4kzgQkuZDazIHUJTDEhZBoFlajjoHOs8Dc0PPci3hrY4HBgs7DgpfO0D4IANaHBNB85AjMtDejiKj3ciRSDkF6zBTgcCnH6mVB3aDghCQ6FyaZ0AhiFRMcByajYBHUCFQIYjezbFzQKYzbSI5F7SlFNYbMRbAIU2ngLx8M7koK2EK-ez-FD3DloWYk25ktkTSlo+npbggTzSIigMQM1brEQs6Xje6K2KeACeXPIPJld0FsJF0CBIJehuVqvV4iycidKvIasQ1C5IGJ1t59ypKm0xDodEUMQGmqZOpsep2BP2PAjUZjfl5VtJIWgmXAgzVyyIkejJCGEqDMvudGY5HNkaAA)
+
+
+[Source](https://sequencediagram.org/index.html#initialData=C4S2BsFMAICEQPYEkAiAoARg4wEFsAHAQwCdQBjEYgO2AGdo0iBXXa5vDSExo83HgAVudBNTTEyISjWBwSCAO51uE0hSpFa0APKC1UmVrnxk6YSVHUAtAD5YC5dwBcdYOugAzcErQOlKiR2es4A9CzAABYIJCAAXpAA-HwkAPoAbkTgzJB0ALxEAOZEeEQAOtQAZEUlRKneSnkxhQB0hdnMLTWlLRiIIAAmaHp2-k4kzgQkuZDazIHUJTDEhZBoFlajjoHOs8Dc0PPci3hrY4HBgs7DgpfO0D4IANaHBNB85AjMtDejiKj3ciRSDkF6zBTgcCnH6mVB3aDghCQ6FyaZ0AhiFRMcByajYBHUCFQIYjezbFzQKYzbSI5F7SlFNYbMRbAIU2ngLx8M7koK2EK-ez-FD3DmC84uKkqbTEOh0RQxAYM1brEQsslsiYE-Y8WXyxV+Xl3QUhTLgQZEfYMuUKkgk24a8auZjkci5OhoWb21lOylo+npbggTzSS2IajKplqmyOnbQQOxTwATy5bsNmuNpNhIugQJBLwTwdDoDE2LkhZD5DDYi5IGJ4t59yl9L1tqVKyjlnVEq1ewOrYNPczDpC8ayFqtA7tnuo3tjFLoLrdcqAA)
 
 # Contributors
 
@@ -73,4 +82,24 @@ Sample JSON:
 
 This project is licensed under the [Apache 2.0](./LICENSE)
 
+<!-- This are stats url reference for this repository -->
 
+[contributors-shield]: https://img.shields.io/github/contributors/GluuFederation/agama-bioid.svg?style=for-the-badge
+
+[contributors-url]: https://github.com/GluuFederation/agama-bioid/graphs/contributors
+
+[forks-shield]: https://img.shields.io/github/forks/GluuFederation/agama-bioid.svg?style=for-the-badge
+
+[forks-url]: https://github.com/GluuFederation/agama-bioid/network/members
+
+[stars-shield]: https://img.shields.io/github/stars/GluuFederation/agama-bioid?style=for-the-badge
+
+[stars-url]: https://github.com/GluuFederation/agama-bioid/stargazers
+
+[issues-shield]: https://img.shields.io/github/issues/GluuFederation/agama-bioid.svg?style=for-the-badge
+
+[issues-url]: https://github.com/GluuFederation/agama-bioid/issues
+
+[license-shield]: https://img.shields.io/github/license/GluuFederation/agama-bioid.svg?style=for-the-badge
+
+[license-url]: https://github.com/GluuFederation/agama-bioid/blob/main/LICENSE
