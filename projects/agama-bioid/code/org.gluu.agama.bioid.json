@@ -525,7 +525,7 @@
 					"hasComment": false,
 					"comment": "",
 					"flowfilename": "",
-					"returnVariable": "\"Enrollment failed; please try again later.\"",
+					"returnVariable": "\"Enrollment failed\"",
 					"finishMode": "withFailure",
 					"nodeIcon": "material-symbols:line-end-square-rounded",
 					"previousNodeId": "whenNode-4f758c68-0e2b-46a0-9e39-fcb9563d2fea"
@@ -534,7 +534,8 @@
 			"measured": {
 				"width": 170,
 				"height": 124
-			}
+			},
+			"selected": true
 		},
 		{
 			"id": "assignmentNode-884e3d7e-f6bd-4671-bec7-fd7f093b035c",
@@ -1462,8 +1463,8 @@
 		}
 	],
 	"viewport": {
-		"x": 0,
-		"y": 0,
+		"x": -2550,
+		"y": -183,
 		"zoom": 1
 	}
 }
