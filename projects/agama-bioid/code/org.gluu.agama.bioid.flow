@@ -8,16 +8,16 @@ idp = Call org.gluu.agama.bioid.IdentityProcessor#new
 username = RRF "username.ftlh" 
 userData = Call idp accountFromUsername username.username
 When userData.empty is true
-     it_zxcrc = {success:false, error: ""User not found""}
-     Finish it_zxcrc
+     it_pivdn = {success:false, error: ""User not found""}
+     Finish it_pivdn
 enrolled = Call bioid isEnrolled username.username
 When enrolled is false
      token = Call bioid getBWSToken username.username "enroll"
      enroll_map = {token:token, return_url:conf.host, state: "abcdef"}
      enroll_result = RRF "bioid.ftlh" enroll_map true
      When enroll_result.error is not null
-          it_hfhqm = {success:false, error: ""Enrollment failed; please try again later.""}
-          Finish it_hfhqm
+          it_uclhi = {success:false, error: ""Enrollment failed""}
+          Finish it_uclhi
      uid = username.username
      authenticate_result = Trigger org.gluu.agama.bioid.authenticate uid idp
      Finish authenticate_result
