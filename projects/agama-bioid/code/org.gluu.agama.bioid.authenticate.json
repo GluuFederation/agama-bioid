@@ -150,7 +150,8 @@
 			"measured": {
 				"width": 110,
 				"height": 60
-			}
+			},
+			"selected": false
 		},
 		{
 			"id": "assignmentNode-e895251f-5835-4939-84fd-5b81260ae1a9",
@@ -189,7 +190,8 @@
 			"measured": {
 				"width": 170,
 				"height": 124
-			}
+			},
+			"selected": false
 		},
 		{
 			"id": "finishNode-3b74781b-4d57-4433-b5c0-9577d37e51cc",
@@ -222,7 +224,8 @@
 			"measured": {
 				"width": 170,
 				"height": 124
-			}
+			},
+			"selected": false
 		},
 		{
 			"id": "finishNode-2502b470-5a07-4379-a148-d737ba241963",
@@ -248,7 +251,7 @@
 					"hasComment": false,
 					"comment": "",
 					"flowfilename": "",
-					"returnVariable": "false",
+					"returnVariable": "Authentication failed",
 					"finishMode": "withFailure",
 					"nodeIcon": "material-symbols:line-end-square-rounded",
 					"previousNodeId": "whenNode-0bb4da44-f461-409b-99f8-f9e07448d342"
@@ -378,8 +381,8 @@
 		}
 	],
 	"viewport": {
-		"x": -328,
-		"y": 13,
+		"x": -256,
+		"y": 126,
 		"zoom": 1
 	}
 }
