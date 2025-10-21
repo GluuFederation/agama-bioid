@@ -251,7 +251,7 @@
 					"hasComment": false,
 					"comment": "",
 					"flowfilename": "",
-					"returnVariable": "\"Error: User not found\"",
+					"returnVariable": "User not found",
 					"finishMode": "withFailure",
 					"nodeIcon": "material-symbols:line-end-square-rounded",
 					"previousNodeId": "whenNode-5f6b5d63-681d-4333-876c-d0bb176459af"
