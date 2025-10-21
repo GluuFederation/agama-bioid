@@ -251,7 +251,7 @@
 					"hasComment": false,
 					"comment": "",
 					"flowfilename": "",
-					"returnVariable": "\"User not found\"",
+					"returnVariable": "\"Error: User not found\"",
 					"finishMode": "withFailure",
 					"nodeIcon": "material-symbols:line-end-square-rounded",
 					"previousNodeId": "whenNode-5f6b5d63-681d-4333-876c-d0bb176459af"
@@ -1464,8 +1464,8 @@
 		}
 	],
 	"viewport": {
-		"x": -3337.2889994559446,
-		"y": 387.40623834550433,
-		"zoom": 1.7314731310393168
+		"x": -1478.6770845485687,
+		"y": -10.378232366225575,
+		"zoom": 1.2008034274852089
 	}
 }
