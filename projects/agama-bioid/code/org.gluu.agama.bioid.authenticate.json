@@ -248,7 +248,7 @@
 					"hasComment": false,
 					"comment": "",
 					"flowfilename": "",
-					"returnVariable": "\"Authentication failed\"",
+					"returnVariable": "false",
 					"finishMode": "withFailure",
 					"nodeIcon": "material-symbols:line-end-square-rounded",
 					"previousNodeId": "whenNode-0bb4da44-f461-409b-99f8-f9e07448d342"
@@ -378,8 +378,8 @@
 		}
 	],
 	"viewport": {
-		"x": 62,
-		"y": 39,
+		"x": -328,
+		"y": 13,
 		"zoom": 1
 	}
 }
