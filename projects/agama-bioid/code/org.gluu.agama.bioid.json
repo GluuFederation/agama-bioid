@@ -261,7 +261,7 @@
 				"width": 170,
 				"height": 124
 			},
-			"selected": true
+			"selected": false
 		},
 		{
 			"id": "callNode-2343a409-0415-40ac-bb07-ac72d76d18da",
@@ -526,7 +526,7 @@
 					"hasComment": false,
 					"comment": "",
 					"flowfilename": "",
-					"returnVariable": "\"Enrollment failed\"",
+					"returnVariable": "Enrollment failed, please try again later",
 					"finishMode": "withFailure",
 					"nodeIcon": "material-symbols:line-end-square-rounded",
 					"previousNodeId": "whenNode-4f758c68-0e2b-46a0-9e39-fcb9563d2fea"
@@ -536,7 +536,7 @@
 				"width": 170,
 				"height": 124
 			},
-			"selected": false
+			"selected": true
 		},
 		{
 			"id": "assignmentNode-884e3d7e-f6bd-4671-bec7-fd7f093b035c",
@@ -1464,8 +1464,8 @@
 		}
 	],
 	"viewport": {
-		"x": -1478.6770845485687,
-		"y": -10.378232366225575,
+		"x": -2746.677084548568,
+		"y": -190.37823236622557,
 		"zoom": 1.2008034274852089
 	}
 }
