@@ -16,7 +16,8 @@
         ],
         "noDirectLaunch": [],
         "configs": {
-            "code": {}
+            "code": {},
+            "org.gluu.agama.bioid.authenticate": {}
         },
         "name": "agama-bioid"
     }
