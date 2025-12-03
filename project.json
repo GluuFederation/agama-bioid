@@ -3,7 +3,7 @@
     "description": "Agama Project to authenticate people using BioID",
     "type": "community",
     "author": "SafinWasi",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "authorWebsite": "https://github.com/GluuFederation/agama-bioid",
     "githubUri": "https://github.com/GluuFederation/agama-bioid",
     "license": "apache-2.0",
