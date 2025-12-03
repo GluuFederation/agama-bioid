@@ -19,7 +19,14 @@
 				"agamaData": {
 					"isTopLevelFlow": true,
 					"basepath": "",
-					"configParams": "{}",
+					"configParams": {
+						"host": "https://<hostname>/jans-auth/fl/callback",
+						"endpoint": "https://bws.bioid.com/extension/",
+						"appIdentifier": "",
+						"appSecret": "",
+						"storage": "",
+						"partition": ""
+					},
 					"nodeIcon": "material-symbols:line-start-square",
 					"timeout": "",
 					"inputs": "",
@@ -35,7 +42,8 @@
 			"measured": {
 				"width": 170,
 				"height": 124
-			}
+			},
+			"selected": true
 		},
 		{
 			"id": "callNode-9872d2af-eee0-493d-94f5-dfec1bc6b58f",
@@ -536,7 +544,7 @@
 				"width": 170,
 				"height": 124
 			},
-			"selected": true
+			"selected": false
 		},
 		{
 			"id": "assignmentNode-884e3d7e-f6bd-4671-bec7-fd7f093b035c",
@@ -1464,8 +1472,8 @@
 		}
 	],
 	"viewport": {
-		"x": -2746.677084548568,
-		"y": -190.37823236622557,
-		"zoom": 1.2008034274852089
+		"x": 0,
+		"y": 0,
+		"zoom": 1
 	}
 }
