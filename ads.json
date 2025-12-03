@@ -1,0 +1,32 @@
+{
+    "agama-bioid": {
+        "projectName": "agama-bioid",
+        "description": "Agama Project to authenticate people using BioID",
+        "type": "community",
+        "author": "SafinWasi",
+        "version": "0.0.1",
+        "authorWebsite": "https://github.com/SafinWasi/agama-bioid",
+        "githubUri": "https://github.com/SafinWasi/agama-bioid",
+        "license": "apache-2.0",
+        "lastUpdated": "1761024173079",
+        "tags": [
+            "authentication",
+            "biometrics",
+            "jans"
+        ],
+        "noDirectLaunch": [],
+        "configs": {
+            "code": {},
+            "org.gluu.agama.bioid.authenticate": {},
+            "org.gluu.agama.bioid": {
+                "host": "https://<hostname>/jans-auth/fl/callback",
+                "endpoint": "https://bws.bioid.com/extension/",
+                "appIdentifier": "",
+                "appSecret": "",
+                "storage": "",
+                "partition": ""
+            }
+        },
+        "name": "agama-bioid"
+    }
+}
